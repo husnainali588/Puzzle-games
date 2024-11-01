@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    background-color: #011F28;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.images img {
+    height: 8rem;
+    width: 8rem;
+    object-fit: cover;
+    border-radius: 5rem;
+    padding: 3px;
+}
+
+.images {
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img:hover {
+    background-color: #011F28;
+}
+
+.choicebox {
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    gap: 4rem;
+}
+
+.yous {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.comps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.resetGame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.resetbtn {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #791523;
+    color: #fff;
+    font-size: larger;
+    transition: all ease-in-out 200ms;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.resetbtn:hover {
+    transform: scale(1.25);
+}
+
+.msgBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    flex-direction: column;
+}
+
+.innerMsgBox {
+    padding-bottom: 5px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.outerMsgBox {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
